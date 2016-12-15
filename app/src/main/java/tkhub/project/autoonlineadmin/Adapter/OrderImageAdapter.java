@@ -9,6 +9,7 @@ import android.widget.ImageView;
 
 
 import com.koushikdutta.urlimageviewhelper.UrlImageViewHelper;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -42,7 +43,7 @@ public class OrderImageAdapter extends RecyclerView.Adapter<OrderImageAdapter.My
 
     @Override
     public void onBindViewHolder(final MyViewHolder holder, final int position) {
-       UrlImageViewHelper.setUrlDrawable(holder.image, item.get(position).imageurl, R.drawable.imagebackground);
+        Picasso.with(mContext).load(item.get(position).imageurl).into(holder.image);
     }
 
     @Override
