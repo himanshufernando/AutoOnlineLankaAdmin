@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "79072035756",
+    "firebase_url": "https://auto-online-admin.firebaseio.com",
+    "project_id": "auto-online-admin",
+    "storage_bucket": "auto-online-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79072035756:android:5add52eeeea153fa",
+        "android_client_info": {
+          "package_name": "tkhub.project.autoonlineadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79072035756-ugo11ball43eljkn985ebk0058s4r5v2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLPGrbYyQgELM0CQtGKAdkiKnPy7sM-L8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

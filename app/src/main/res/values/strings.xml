@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Auto Online Lanka Admin</string>
+    //splash
+    <string name="app_version">Version 1.0.0</string>
+
+    //Login
+    <string name="string_quotes">ADMIN</string>
+    <string name="string_login">Admin Login</string>
+    <string name="string_loginUsername">USERNAME</string>
+    <string name="string_loginPassword">PASSWORD</string>
+    <string name="button_Login">LOG IN</string>
+    <string name="button_Singup">SING UP</string>
+    <string name="string_NotNow">NOT NOW AND GO AHEAD</string>
+
+    //User
+    <string name="string_name">Name :</string>
+    <string name="string_mobile">Mobile :</string>
+    <string name="string_stare">*</string>
+
+    <string name="string_make">Make :</string>
+    <string name="string_model">Model :</string>
+    <string name="string_chassi">Chassis :</string>
+    <string name="string_year">Year :</string>
+    <string name="string_shortDescription">Short description of the Spare Part</string>
+    <string name="string_upladeimage">Image Upload (Damaged Spare Part):</string>
+    <string name="button_submit">SUBMIT</string>
+    <string name="icon_close">&#xf05c;</string>
+    <string name="string_city">City :</string>
+
+
+    //font
+    <string name="icon_arrow"> &#xf061;</string>
+    <string name="icon_titlebarMenu">&#xf039;</string>
+    <string name="icon_acaretdown">&#xf0d7;</string>
+    <string name="icon_faarrowcircleup">&#xf01b;</string>
+    //navigation
+    <string name="icon_navigation_home">&#xf015;</string>
+    <string name="icon_navigation_hotline">&#xf095;</string>
+    <string name="icon_navigation_sms">&#xf0e0;</string>
+    <string name="icon_navigation_about">&#xf0f4;</string>
+    <string name="icon_navigation_email">&#xf024;</string>
+    <string name="icon_navigation_history">&#xf254;</string>
+    <string name="icon_navigation_registrar">&#xf1b9;</string>
+
+    //dailog hotline
+    <string name="icon_phone">&#xf095;</string>
+    <string name="string_hotline">+94773812237</string>
+    <string name="string_call">CALL</string>
+
+    //dailog sms
+    <string name="icon_sendsms">&#xf2b6;</string>
+
+    //menu
+    <string name="string_recommended">Recommended</string>
+
+    //history
+    <string name="icon_fill_circle">&#xf111;</string>
+    <string name="icon_car">&#xf1b9;</string>
+    <string name="icon_feedback">&#xf164;</string>
+
+    <string name="icon_pending">&#xf017;</string>
+    <string name="icon_progress">&#xf218;</string>
+    <string name="icon_deliverd">&#xf072;</string>
+    <string name="icon_reject">&#xf05c;</string>
+    <string name="icon_user">&#xf007;</string>
+
+    <string name="icon_call">&#xf095;</string>
+
+    <string name="icon_delete">&#xf014;</string>
+    <string name="icon_update">&#xf021;</string>
+    <string name="icon_passwordreset">&#xf023;</string>
+
+
+    <string name="icon_camera">&#xf030;</string>
+    <string name="icon_stare">&#xf005;</string>
+
+
+
+
+</resources>

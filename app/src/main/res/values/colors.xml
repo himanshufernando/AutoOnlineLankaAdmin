@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="appDarkBlue">#1b439b</color>
+    <color name="appDarkBluev2">#3155a5</color>
+    <color name="appLightBlue">#00adef</color>
+
+    <color name="iconRed">#e74c3c</color>
+    <color name="iconBlack">#000000</color>
+
+    <color name="colorPending">#ff33b5e5</color>
+    <color name="coloronProgress">#ffffbb33</color>
+    <color name="colorDeliver">#ff669900</color>
+    <color name="colorReject">#ffcc0000</color>
+    <color name="colorLightBlack">#cccccc</color>
+
+
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="60dip"
+        android:background="@color/appDarkBlue"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayoutTitleBar"
+        android:layout_alignParentLeft="true">
+
+        <RelativeLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/relativeLayoutMenuView"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentLeft="true">
+
+        </RelativeLayout>
+
+        <tkhub.project.autoonlineadmin.Font.FontAppBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textViewtitle"
+            android:textColor="@android:color/white"
+            android:text="Model"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/relativeLayoutTitleBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:text="Model : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:id="@+id/textView23"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/iconBlack" />
+
+        <EditText
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView23"
+            android:layout_toEndOf="@+id/textView23"
+            android:layout_width="200dp"
+            android:hint="Model" />
+
+        <Button
+            android:text="Add"
+            android:layout_height="50dp"
+            android:id="@+id/button2"
+            android:layout_alignTop="@+id/editText"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_width="80dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/blue_btn_bg_color"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="Model ID"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:layout_centerVertical="true"
+            android:textColor="@color/iconBlack"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="60dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:layout_alignBaseline="@+id/textView24"
+            android:layout_alignBottom="@+id/textView24"
+            android:textColor="@color/iconBlack"
+            android:layout_toRightOf="@+id/textView24"
+            android:layout_toEndOf="@+id/textView24"
+            android:text="Model" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_model"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

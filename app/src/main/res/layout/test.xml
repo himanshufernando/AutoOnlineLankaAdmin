@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/blue_btn_bg_color"
+        android:layout_height="50dp">
+
+        <TextView
+            android:text="Make ID"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24"
+            android:layout_centerVertical="true"
+            android:textColor="@color/iconBlack"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="60dp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:layout_alignBaseline="@+id/textView24"
+            android:layout_alignBottom="@+id/textView24"
+            android:textColor="@color/iconBlack"
+            android:layout_toRightOf="@+id/textView24"
+            android:layout_toEndOf="@+id/textView24"
+            android:text="Make"
+            android:layout_width="190dp" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutdelelte"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <tkhub.project.autoonlineadmin.Font.TextViewFontAwesome
+                android:text="@string/icon_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView20"
+                android:textColor="@color/colorReject"
+                android:textSize="24sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutupdate"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/relativeLayoutdelelte"
+            android:layout_toLeftOf="@+id/relativeLayoutdelelte"
+            android:layout_marginRight="10dp">
+
+            <tkhub.project.autoonlineadmin.Font.TextViewFontAwesome
+                android:text="@string/icon_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView20"
+                android:textColor="@color/colorDeliver"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
